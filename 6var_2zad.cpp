@@ -9,7 +9,7 @@ void calculation()
 	std::cin >> x;
 	std::cin >> y;
 	m = sin(atan(z/2))-sin(atan(M_PI/3));
-	z = (abs(pow(exp(-x*y))+pow(10,-3)+exp(-x*y))/(M_PI+log(x*y));
+	z = (abs(exp(-x*y)+pow(10,-3)+exp(-x*y)))/(M_PI+log(x*y));
 	std::cout << "d" << d <<"\n";
 	std::cout << "z" << z;
 }
